@@ -1,0 +1,21 @@
+PODS:
+  - FaceTecSDK (9.3.4)
+  - Kvalifika (1.0.12):
+    - FaceTecSDK (= 9.3.4)
+
+DEPENDENCIES:
+  - Kvalifika (= 1.0.12)
+
+SPEC REPOS:
+  https://github.com/Kvalifika/kvalifika-cocoapods-specs.git:
+    - Kvalifika
+  https://github.com/Kvalifika/zoom-cocoapods-specs.git:
+    - FaceTecSDK
+
+SPEC CHECKSUMS:
+  FaceTecSDK: 54bbc82c6124fff64903521479b27a43d811a59c
+  Kvalifika: 0132b07ce8354cdb08e7234b5cbfc4e6fbbbe481
+
+PODFILE CHECKSUM: bda9f9313b76ea027a0746914bd2ba6a07857ddd
+
+COCOAPODS: 1.11.2

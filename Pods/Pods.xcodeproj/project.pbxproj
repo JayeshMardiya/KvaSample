@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		288F72306E0D4F1BA6D5DA583682487B /* Kvalifika */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FC59DA359EB8B103ED0B9F81668F2686 /* Build configuration list for PBXAggregateTarget "Kvalifika" */;
+			buildPhases = (
+				3658D47DC4FEFDBBC9C1ACC9B37D0A30 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+				7C83CF7A458BF53603A843846DBF9C23 /* PBXTargetDependency */,
+				36CED676B7D9B81466818EA260E7A946 /* PBXTargetDependency */,
+			);
+			name = Kvalifika;
+		};
+		3F794D06840EC3CC9408FE7ECBE4DF41 /* FaceTecSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FDF0D6FFCCB99A73A30ADF804DB34936 /* Build configuration list for PBXAggregateTarget "FaceTecSDK" */;
+			buildPhases = (
+				84BFE2DE522A4124BE515F9A9357FF5C /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = FaceTecSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		98158F203E47A8D0EBD1E611836418D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A35E99DB3E8AA25A0B77F243E47DB517 /* Pods-KvalifikaSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9749C06BF582B36E9FA2C63EAACF52 /* Pods-KvalifikaSample-dummy.m */; };
+		B47F40F2D9F9AB7972F9539D0A623703 /* Pods-KvalifikaSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4A21EA7CC21A130B5D20544748233C /* Pods-KvalifikaSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		458B28D153A74DA7FF01A29C69AD4812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F794D06840EC3CC9408FE7ECBE4DF41;
+			remoteInfo = FaceTecSDK;
+		};
+		94827EE7C73F72D1E316373BE44BB14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 288F72306E0D4F1BA6D5DA583682487B;
+			remoteInfo = Kvalifika;
+		};
+		B2286CA98DF20428A6D802A09AEABCD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F794D06840EC3CC9408FE7ECBE4DF41;
+			remoteInfo = FaceTecSDK;
+		};
+		B836565C92A02154F4C0FC94D0605A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C41D1BE2D8EC1C4A45898218B2EF434;
+			remoteInfo = "Kvalifika-Kvalifika";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04900E967EDCB256FE2E4E8FC1745433 /* ResourceBundle-Kvalifika-Kvalifika-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Kvalifika-Kvalifika-Info.plist"; sourceTree = "<group>"; };
+		0D4A21EA7CC21A130B5D20544748233C /* Pods-KvalifikaSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KvalifikaSample-umbrella.h"; sourceTree = "<group>"; };
+		11D7F96234425458E4604F98CF38ED43 /* FaceTecSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceTecSDK.debug.xcconfig; sourceTree = "<group>"; };
+		26E4AC29A79378B8E088AA6265127084 /* FaceTecSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "FaceTecSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		2751CB733079D5749ECEA66F4BA9B498 /* Pods-KvalifikaSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KvalifikaSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		2C9749C06BF582B36E9FA2C63EAACF52 /* Pods-KvalifikaSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KvalifikaSample-dummy.m"; sourceTree = "<group>"; };
+		33CAAA40F1FD372C86D19442A859C3CD /* Pods-KvalifikaSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KvalifikaSample.modulemap"; sourceTree = "<group>"; };
+		6B83997CA07DE8ABC1A76893220B276B /* Kvalifika.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kvalifika.debug.xcconfig; sourceTree = "<group>"; };
+		7084F0697D45430B0A00CFFEFA04CBDE /* Kvalifika-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Kvalifika-xcframeworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F4BDF4ACBB13CF6104748E617A70F16 /* Pods-KvalifikaSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KvalifikaSample.release.xcconfig"; sourceTree = "<group>"; };
+		819A4AA63A3E773740398F30E79923A1 /* Pods-KvalifikaSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KvalifikaSample.debug.xcconfig"; sourceTree = "<group>"; };
+		83E66D0A25A24A4A47E14F3A7C9FAAC1 /* FaceTecSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FaceTecSDK.release.xcconfig; sourceTree = "<group>"; };
+		89793625DE291782C70687F611EA23C6 /* Pods-KvalifikaSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KvalifikaSample-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB955666EA377A6D1E04BBFBD45B6566 /* Pods-KvalifikaSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KvalifikaSample-Info.plist"; sourceTree = "<group>"; };
+		BE1D2598DF4BD7F0D001F06D23EC228E /* Pods-KvalifikaSample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KvalifikaSample"; path = Pods_KvalifikaSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF267858BDE1D2F06C1C39FB7685037 /* Kvalifika.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kvalifika.release.xcconfig; sourceTree = "<group>"; };
+		DC68E113A5440A539C6E819177E271CA /* Kvalifika.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = Kvalifika.xcframework; sourceTree = "<group>"; };
+		EB8EFE5E08FAFC2FBCB72501C6EB894B /* FaceTecSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = FaceTecSDK.xcframework; sourceTree = "<group>"; };
+		F28DE1B1CE80ABB982CFACC5C786B324 /* Pods-KvalifikaSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KvalifikaSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F2E99F565F9A9E2E17128BDC38D826F3 /* Kvalifika-Kvalifika */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Kvalifika-Kvalifika"; path = Kvalifika.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F807C789E6382176A49E10F610009374 /* Pods-KvalifikaSample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KvalifikaSample-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		894000E8EC1848C0F2124CF96E809A20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98158F203E47A8D0EBD1E611836418D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C140A7357C476CB557E25FB844925C49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		77B41C60CDA78806A8D0DD28E6B70FBA /* Kvalifika */ = {
+			isa = PBXGroup;
+			children = (
+				E236FE7AB031B0EC87AB39CFCB44B665 /* Frameworks */,
+				AC70AE9273BDA5382F9EE40C61D20120 /* Support Files */,
+			);
+			name = Kvalifika;
+			path = Kvalifika;
+			sourceTree = "<group>";
+		};
+		8846E48C702E7AEC2D5071830F0C3AA9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				26E4AC29A79378B8E088AA6265127084 /* FaceTecSDK-xcframeworks.sh */,
+				11D7F96234425458E4604F98CF38ED43 /* FaceTecSDK.debug.xcconfig */,
+				83E66D0A25A24A4A47E14F3A7C9FAAC1 /* FaceTecSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FaceTecSDK";
+			sourceTree = "<group>";
+		};
+		916FB94B2BB9DFB581FF7008D217B16A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C00EF9CCA3CB0F51D95853B58D83CFAE /* Pods-KvalifikaSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AC70AE9273BDA5382F9EE40C61D20120 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7084F0697D45430B0A00CFFEFA04CBDE /* Kvalifika-xcframeworks.sh */,
+				6B83997CA07DE8ABC1A76893220B276B /* Kvalifika.debug.xcconfig */,
+				CAF267858BDE1D2F06C1C39FB7685037 /* Kvalifika.release.xcconfig */,
+				04900E967EDCB256FE2E4E8FC1745433 /* ResourceBundle-Kvalifika-Kvalifika-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kvalifika";
+			sourceTree = "<group>";
+		};
+		B04DBC5A2519991AFE3ACAD97205CA14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8EFE5E08FAFC2FBCB72501C6EB894B /* FaceTecSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C00EF9CCA3CB0F51D95853B58D83CFAE /* Pods-KvalifikaSample */ = {
+			isa = PBXGroup;
+			children = (
+				33CAAA40F1FD372C86D19442A859C3CD /* Pods-KvalifikaSample.modulemap */,
+				F28DE1B1CE80ABB982CFACC5C786B324 /* Pods-KvalifikaSample-acknowledgements.markdown */,
+				2751CB733079D5749ECEA66F4BA9B498 /* Pods-KvalifikaSample-acknowledgements.plist */,
+				2C9749C06BF582B36E9FA2C63EAACF52 /* Pods-KvalifikaSample-dummy.m */,
+				89793625DE291782C70687F611EA23C6 /* Pods-KvalifikaSample-frameworks.sh */,
+				BB955666EA377A6D1E04BBFBD45B6566 /* Pods-KvalifikaSample-Info.plist */,
+				F807C789E6382176A49E10F610009374 /* Pods-KvalifikaSample-resources.sh */,
+				0D4A21EA7CC21A130B5D20544748233C /* Pods-KvalifikaSample-umbrella.h */,
+				819A4AA63A3E773740398F30E79923A1 /* Pods-KvalifikaSample.debug.xcconfig */,
+				7F4BDF4ACBB13CF6104748E617A70F16 /* Pods-KvalifikaSample.release.xcconfig */,
+			);
+			name = "Pods-KvalifikaSample";
+			path = "Target Support Files/Pods-KvalifikaSample";
+			sourceTree = "<group>";
+		};
+		C9D3F48B416ED271F2BFE089E854FBDE /* FaceTecSDK */ = {
+			isa = PBXGroup;
+			children = (
+				B04DBC5A2519991AFE3ACAD97205CA14 /* Frameworks */,
+				8846E48C702E7AEC2D5071830F0C3AA9 /* Support Files */,
+			);
+			name = FaceTecSDK;
+			path = FaceTecSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DDB2ED42F81897A0BED35D5226B4FE9D /* Pods */,
+				F1E67FD7015F3A945E9906485B87BE5E /* Products */,
+				916FB94B2BB9DFB581FF7008D217B16A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDB2ED42F81897A0BED35D5226B4FE9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9D3F48B416ED271F2BFE089E854FBDE /* FaceTecSDK */,
+				77B41C60CDA78806A8D0DD28E6B70FBA /* Kvalifika */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E236FE7AB031B0EC87AB39CFCB44B665 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC68E113A5440A539C6E819177E271CA /* Kvalifika.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1E67FD7015F3A945E9906485B87BE5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2E99F565F9A9E2E17128BDC38D826F3 /* Kvalifika-Kvalifika */,
+				BE1D2598DF4BD7F0D001F06D23EC228E /* Pods-KvalifikaSample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B07E3D7CC6DDA370FF06420985C5A425 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B47F40F2D9F9AB7972F9539D0A623703 /* Pods-KvalifikaSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7C41D1BE2D8EC1C4A45898218B2EF434 /* Kvalifika-Kvalifika */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A75CBE2AE7660A5BC283FB88AFDC75 /* Build configuration list for PBXNativeTarget "Kvalifika-Kvalifika" */;
+			buildPhases = (
+				E26C0A955012EF65E68F7212FB18F818 /* Sources */,
+				C140A7357C476CB557E25FB844925C49 /* Frameworks */,
+				C224DC714424D9778BB7B6C0010FFA32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kvalifika-Kvalifika";
+			productName = Kvalifika;
+			productReference = F2E99F565F9A9E2E17128BDC38D826F3 /* Kvalifika-Kvalifika */;
+			productType = "com.apple.product-type.bundle";
+		};
+		DF8B48820A16688F8203097C22EF1D84 /* Pods-KvalifikaSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AC29BDD4F64211EA021DFE4B697F17 /* Build configuration list for PBXNativeTarget "Pods-KvalifikaSample" */;
+			buildPhases = (
+				B07E3D7CC6DDA370FF06420985C5A425 /* Headers */,
+				6A659318E851969FD7D73CF58B932988 /* Sources */,
+				894000E8EC1848C0F2124CF96E809A20 /* Frameworks */,
+				1D6937F0D40C8C1CC0017DF599332136 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B7E4B086178D1E983ADD74A5E849C44 /* PBXTargetDependency */,
+				547FA2421C3EDA83C267539F213D8C63 /* PBXTargetDependency */,
+			);
+			name = "Pods-KvalifikaSample";
+			productName = Pods_KvalifikaSample;
+			productReference = BE1D2598DF4BD7F0D001F06D23EC228E /* Pods-KvalifikaSample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = F1E67FD7015F3A945E9906485B87BE5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F794D06840EC3CC9408FE7ECBE4DF41 /* FaceTecSDK */,
+				288F72306E0D4F1BA6D5DA583682487B /* Kvalifika */,
+				7C41D1BE2D8EC1C4A45898218B2EF434 /* Kvalifika-Kvalifika */,
+				DF8B48820A16688F8203097C22EF1D84 /* Pods-KvalifikaSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6937F0D40C8C1CC0017DF599332136 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C224DC714424D9778BB7B6C0010FFA32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3658D47DC4FEFDBBC9C1ACC9B37D0A30 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Kvalifika/Kvalifika-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Kvalifika/Kvalifika-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Kvalifika/Kvalifika-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84BFE2DE522A4124BE515F9A9357FF5C /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FaceTecSDK/FaceTecSDK-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/FaceTecSDK/FaceTecSDK-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/FaceTecSDK/FaceTecSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A659318E851969FD7D73CF58B932988 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A35E99DB3E8AA25A0B77F243E47DB517 /* Pods-KvalifikaSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E26C0A955012EF65E68F7212FB18F818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36CED676B7D9B81466818EA260E7A946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Kvalifika-Kvalifika";
+			target = 7C41D1BE2D8EC1C4A45898218B2EF434 /* Kvalifika-Kvalifika */;
+			targetProxy = B836565C92A02154F4C0FC94D0605A23 /* PBXContainerItemProxy */;
+		};
+		547FA2421C3EDA83C267539F213D8C63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kvalifika;
+			target = 288F72306E0D4F1BA6D5DA583682487B /* Kvalifika */;
+			targetProxy = 94827EE7C73F72D1E316373BE44BB14D /* PBXContainerItemProxy */;
+		};
+		6B7E4B086178D1E983ADD74A5E849C44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceTecSDK;
+			target = 3F794D06840EC3CC9408FE7ECBE4DF41 /* FaceTecSDK */;
+			targetProxy = B2286CA98DF20428A6D802A09AEABCD3 /* PBXContainerItemProxy */;
+		};
+		7C83CF7A458BF53603A843846DBF9C23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FaceTecSDK;
+			target = 3F794D06840EC3CC9408FE7ECBE4DF41 /* FaceTecSDK */;
+			targetProxy = 458B28D153A74DA7FF01A29C69AD4812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CD36685FD6C8197B4FF3F6D6F3BBC5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11D7F96234425458E4604F98CF38ED43 /* FaceTecSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0EB83C01F3F762A375D10F6111E68723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF267858BDE1D2F06C1C39FB7685037 /* Kvalifika.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Kvalifika";
+				IBSC_MODULE = Kvalifika;
+				INFOPLIST_FILE = "Target Support Files/Kvalifika/ResourceBundle-Kvalifika-Kvalifika-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Kvalifika;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		47A849B7214FF43797FEE3CBF72C2F82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4BDF4ACBB13CF6104748E617A70F16 /* Pods-KvalifikaSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KvalifikaSample/Pods-KvalifikaSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KvalifikaSample/Pods-KvalifikaSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48398C895DD1D9DF94AD73BF29545082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B83997CA07DE8ABC1A76893220B276B /* Kvalifika.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Kvalifika";
+				IBSC_MODULE = Kvalifika;
+				INFOPLIST_FILE = "Target Support Files/Kvalifika/ResourceBundle-Kvalifika-Kvalifika-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = Kvalifika;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		5FD9AA08736FFEBAF11E1566BDE167D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B83997CA07DE8ABC1A76893220B276B /* Kvalifika.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		69E007A06833816F12365D7497D36172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAF267858BDE1D2F06C1C39FB7685037 /* Kvalifika.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		793D7381943B2F7ABA5AF51AF1ADB41C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E66D0A25A24A4A47E14F3A7C9FAAC1 /* FaceTecSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EC54BA90AD987E72C1109B3289DB5C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 819A4AA63A3E773740398F30E79923A1 /* Pods-KvalifikaSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KvalifikaSample/Pods-KvalifikaSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KvalifikaSample/Pods-KvalifikaSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12AC29BDD4F64211EA021DFE4B697F17 /* Build configuration list for PBXNativeTarget "Pods-KvalifikaSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC54BA90AD987E72C1109B3289DB5C64 /* Debug */,
+				47A849B7214FF43797FEE3CBF72C2F82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A75CBE2AE7660A5BC283FB88AFDC75 /* Build configuration list for PBXNativeTarget "Kvalifika-Kvalifika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48398C895DD1D9DF94AD73BF29545082 /* Debug */,
+				0EB83C01F3F762A375D10F6111E68723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC59DA359EB8B103ED0B9F81668F2686 /* Build configuration list for PBXAggregateTarget "Kvalifika" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FD9AA08736FFEBAF11E1566BDE167D6 /* Debug */,
+				69E007A06833816F12365D7497D36172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF0D6FFCCB99A73A30ADF804DB34936 /* Build configuration list for PBXAggregateTarget "FaceTecSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CD36685FD6C8197B4FF3F6D6F3BBC5B /* Debug */,
+				793D7381943B2F7ABA5AF51AF1ADB41C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
